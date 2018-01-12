@@ -22,7 +22,11 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
+        Me.Alorica_PictureBox = New System.Windows.Forms.PictureBox()
+        CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -33,8 +37,6 @@ Partial Class Form1
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
-        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
         '
         'button_CreateNewEmployee
         '
@@ -45,19 +47,32 @@ Partial Class Form1
         Me.button_CreateNewEmployee.Text = "New Employee"
         Me.button_CreateNewEmployee.UseVisualStyleBackColor = True
         '
+        'Alorica_PictureBox
+        '
+        Me.Alorica_PictureBox.BackgroundImage = CType(resources.GetObject("Alorica_PictureBox.BackgroundImage"), System.Drawing.Image)
+        Me.Alorica_PictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Alorica_PictureBox.Location = New System.Drawing.Point(171, 23)
+        Me.Alorica_PictureBox.Name = "Alorica_PictureBox"
+        Me.Alorica_PictureBox.Size = New System.Drawing.Size(75, 68)
+        Me.Alorica_PictureBox.TabIndex = 1
+        Me.Alorica_PictureBox.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Controls.Add(Me.Alorica_PictureBox)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.button_CreateNewEmployee)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents button_CreateNewEmployee As System.Windows.Forms.Button
+    Friend WithEvents Alorica_PictureBox As System.Windows.Forms.PictureBox
 
 End Class
