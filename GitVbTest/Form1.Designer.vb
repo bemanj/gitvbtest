@@ -22,23 +22,12 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
-        '<<<<<<< HEAD
         Me.Label1 = New System.Windows.Forms.Label()
-        '=======
         Me.SheldonButton = New System.Windows.Forms.Button()
-        '>>>>>>> feature/sheldon_feature_1
+        Me.LastNameLabel1 = New System.Windows.Forms.Label()
+        Me.LastNameTextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(47, 61)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'button_CreateNewEmployee
         '
@@ -49,7 +38,6 @@ Partial Class Form1
         Me.button_CreateNewEmployee.Text = "New Employee"
         Me.button_CreateNewEmployee.UseVisualStyleBackColor = True
         '
-        '<<<<<<< HEAD
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -58,7 +46,6 @@ Partial Class Form1
         Me.Label1.Size = New System.Drawing.Size(67, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Label Button"
-        '=======
         'SheldonButton
         '
         Me.SheldonButton.Location = New System.Drawing.Point(47, 125)
@@ -67,19 +54,33 @@ Partial Class Form1
         Me.SheldonButton.TabIndex = 1
         Me.SheldonButton.Text = "Sheldon"
         Me.SheldonButton.UseVisualStyleBackColor = True
-        '>>>>>>> feature/sheldon_feature_1
+        'LastNameLabel1
+        '
+        Me.LastNameLabel1.AutoSize = True
+        Me.LastNameLabel1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LastNameLabel1.Location = New System.Drawing.Point(21, 67)
+        Me.LastNameLabel1.Name = "LastNameLabel1"
+        Me.LastNameLabel1.Size = New System.Drawing.Size(75, 16)
+        Me.LastNameLabel1.TabIndex = 1
+        Me.LastNameLabel1.Text = "Last Name"
+        '
+        'LastNameTextBox1
+        '
+        Me.LastNameTextBox1.Location = New System.Drawing.Point(102, 65)
+        Me.LastNameTextBox1.Name = "LastNameTextBox1"
+        Me.LastNameTextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.LastNameTextBox1.TabIndex = 2
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
-        '<<<<<<< HEAD
         Me.Controls.Add(Me.Label1)
-        '=======
         Me.Controls.Add(Me.SheldonButton)
-        '>>>>>>> feature/sheldon_feature_1
         Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.LastNameTextBox1)
+        Me.Controls.Add(Me.LastNameLabel1)
         Me.Controls.Add(Me.button_CreateNewEmployee)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -87,12 +88,10 @@ Partial Class Form1
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents button_CreateNewEmployee As System.Windows.Forms.Button
-    '<<<<<<< HEAD
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    '=======
     Friend WithEvents SheldonButton As System.Windows.Forms.Button
-    '>>>>>>> feature/sheldon_feature_1
+    Friend WithEvents LastNameLabel1 As System.Windows.Forms.Label
+    Friend WithEvents LastNameTextBox1 As System.Windows.Forms.TextBox
 
 End Class
