@@ -13,8 +13,4 @@
 
 
     End Sub
-
-    Private Sub SheldonButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SheldonButton.Click
-
-    End Sub
 End Class
