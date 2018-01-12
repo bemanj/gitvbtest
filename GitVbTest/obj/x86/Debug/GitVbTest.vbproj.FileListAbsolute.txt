@@ -1,0 +1,9 @@
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\bin\Debug\GitVbTest.exe
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\bin\Debug\GitVbTest.pdb
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\bin\Debug\GitVbTest.xml
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.Form1.resources
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.Resources.resources
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.vbproj.GenerateResource.Cache
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.exe
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.xml
+C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.pdb
