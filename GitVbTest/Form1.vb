@@ -5,12 +5,21 @@
     End Sub
 
 
+
     Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
 
     End Sub
 
     Private Sub Alorica_PictureBox_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Alorica_PictureBox.Click
 
+    End Sub
+
+
+    Private Sub btnAdd_Click(sender As System.Object, e As System.EventArgs) Handles btnAdd.Click
+
+    End Sub
+
+    Private Sub btnRemove_Click(sender As System.Object, e As System.EventArgs) Handles btnRemove.Click
 
     End Sub
 End Class

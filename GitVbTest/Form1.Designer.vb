@@ -22,40 +22,21 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.SheldonButton = New System.Windows.Forms.Button()
         Me.FirstNameLabel1 = New System.Windows.Forms.Label()
         Me.LastNameTextBox1 = New System.Windows.Forms.TextBox()
-
-
-        Me.SuspendLayout()
-
-        'Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
-
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.SuspendLayout()
-
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        'Me.Button1 = New System.Windows.Forms.Button()
-        'Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.Alorica_PictureBox = New System.Windows.Forms.PictureBox()
-        CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.btnAdd = New System.Windows.Forms.Button()
+        Me.btnRemove = New System.Windows.Forms.Button()
+        CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Button1
-        '
-        'Me.Button1.Location = New System.Drawing.Point(47, 61)
-        'Me.Button1.Name = "Button1"
-        'Me.Button1.Size = New System.Drawing.Size(75, 23)
-        'Me.Button1.TabIndex = 0
-        'Me.Button1.Text = "Button1"
-        'Me.Button1.UseVisualStyleBackColor = True
-
         '
         'button_CreateNewEmployee
         '
@@ -66,7 +47,6 @@ Partial Class Form1
         Me.button_CreateNewEmployee.Text = "New Employee"
         Me.button_CreateNewEmployee.UseVisualStyleBackColor = True
         '
-
         'SheldonButton
         '
         Me.SheldonButton.Location = New System.Drawing.Point(114, 91)
@@ -130,17 +110,16 @@ Partial Class Form1
         Me.Label3.Size = New System.Drawing.Size(75, 16)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Last Name"
-
+        '
         'Alorica_PictureBox
         '
         Me.Alorica_PictureBox.BackgroundImage = CType(resources.GetObject("Alorica_PictureBox.BackgroundImage"), System.Drawing.Image)
         Me.Alorica_PictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Alorica_PictureBox.Location = New System.Drawing.Point(171, 23)
+        Me.Alorica_PictureBox.Location = New System.Drawing.Point(207, 4)
         Me.Alorica_PictureBox.Name = "Alorica_PictureBox"
         Me.Alorica_PictureBox.Size = New System.Drawing.Size(75, 68)
         Me.Alorica_PictureBox.TabIndex = 1
         Me.Alorica_PictureBox.TabStop = False
-
         '
         'RadioButton1
         '
@@ -153,12 +132,29 @@ Partial Class Form1
         Me.RadioButton1.Text = "Yes"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
+        'btnAdd
+        '
+        Me.btnAdd.Location = New System.Drawing.Point(58, 187)
+        Me.btnAdd.Name = "btnAdd"
+        Me.btnAdd.Size = New System.Drawing.Size(75, 23)
+        Me.btnAdd.TabIndex = 0
+        Me.btnAdd.Text = "Add"
+        Me.btnAdd.UseVisualStyleBackColor = True
+        '
+        'btnRemove
+        '
+        Me.btnRemove.Location = New System.Drawing.Point(139, 187)
+        Me.btnRemove.Name = "btnRemove"
+        Me.btnRemove.Size = New System.Drawing.Size(75, 23)
+        Me.btnRemove.TabIndex = 1
+        Me.btnRemove.Text = "Remove"
+        Me.btnRemove.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
-
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.SheldonButton)
@@ -167,10 +163,9 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LastNameTextBox1)
         Me.Controls.Add(Me.FirstNameLabel1)
-
         Me.Controls.Add(Me.Alorica_PictureBox)
-        'Me.Controls.Add(Me.Button1)
-
+        Me.Controls.Add(Me.btnRemove)
+        Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.button_CreateNewEmployee)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -179,7 +174,11 @@ Partial Class Form1
         Me.PerformLayout()
 
     End Sub
+
+    Friend WithEvents btnAdd As System.Windows.Forms.Button
+
     Friend WithEvents button_CreateNewEmployee As System.Windows.Forms.Button
+    Friend WithEvents btnRemove As System.Windows.Forms.Button
 
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton

@@ -9,6 +9,7 @@ C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\Gi
 C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.pdb
 C:\Users\RB004259604\Documents\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.xml
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.xml
 =======
 C:\Users\SP004320654\Documents\git\GitVbTest\obj\x86\Debug\GitVbTest.xml
@@ -48,3 +49,6 @@ C:\Users\JM004320651\Desktop\Test Source Tree 5\GitVbTest\obj\x86\Debug\GitVbTes
 C:\Users\JM004320651\Desktop\Test Source Tree 5\GitVbTest\obj\x86\Debug\GitVbTest.Resources.resources
 C:\Users\JM004320651\Desktop\Test Source Tree 5\GitVbTest\obj\x86\Debug\GitVbTest.vbproj.GenerateResource.Cache
 >>>>>>> feature/New_Feature_-_Jmercs
+=======
+C:\Tessa\myapp\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.xml
+>>>>>>> feature/tessa_feature_1
