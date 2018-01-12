@@ -34,3 +34,7 @@ C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\
 C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.vbproj.GenerateResource.Cache
 C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.exe
 C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.pdb
+C:\Users\JA004340823\Documents\gitvbtest.git\GitVbTest\obj\x86\Debug\GitVbTest.xml
+>>>>>>> feature/Jenny_feature_1
+C:\Users\JA004340823\Documents\gitvbtest.git\GitVbTest\obj\x86\Debug\GitVbTest.exe
+C:\Users\JA004340823\Documents\gitvbtest.git\GitVbTest\obj\x86\Debug\GitVbTest.pdb
