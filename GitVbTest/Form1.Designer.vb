@@ -35,9 +35,10 @@ Partial Class Form1
 
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         'Me.Button1 = New System.Windows.Forms.Button()
-        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
+        'Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.Alorica_PictureBox = New System.Windows.Forms.PictureBox()
         CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
         'Button1
@@ -135,6 +136,17 @@ Partial Class Form1
         Me.Alorica_PictureBox.TabStop = False
 
         '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(29, 159)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(43, 17)
+        Me.RadioButton1.TabIndex = 2
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Yes"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -145,6 +157,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.SheldonButton)
         Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LastNameTextBox1)
         Me.Controls.Add(Me.FirstNameLabel1)
@@ -163,6 +176,7 @@ Partial Class Form1
     Friend WithEvents button_CreateNewEmployee As System.Windows.Forms.Button
 
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
 
     Friend WithEvents SheldonButton As System.Windows.Forms.Button
     Friend WithEvents FirstNameLabel1 As System.Windows.Forms.Label
