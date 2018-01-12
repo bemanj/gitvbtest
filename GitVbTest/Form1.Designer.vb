@@ -29,7 +29,7 @@ Partial Class Form1
         Me.LastNameTextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
 
-        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
+        'Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
