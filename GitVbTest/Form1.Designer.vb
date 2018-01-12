@@ -27,6 +27,12 @@ Partial Class Form1
         Me.SheldonButton = New System.Windows.Forms.Button()
         Me.FirstNameLabel1 = New System.Windows.Forms.Label()
         Me.LastNameTextBox1 = New System.Windows.Forms.TextBox()
+
+
+        Me.SuspendLayout()
+
+        'Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
+
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
