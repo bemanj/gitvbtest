@@ -35,7 +35,7 @@ Partial Class Form1
 
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         'Me.Button1 = New System.Windows.Forms.Button()
-        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
+        'Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.Alorica_PictureBox = New System.Windows.Forms.PictureBox()
         CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()

@@ -27,10 +27,8 @@ C:\Users\lb004382477\Documents\GitVBtest\GitVbTest\obj\x86\Debug\GitVbTest.exe
 C:\Users\lb004382477\Documents\GitVBtest\GitVbTest\obj\x86\Debug\GitVbTest.pdb
 C:\Users\MS004382478\Documents\Visual Studio 2010\Projects\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.exe
 C:\Users\MS004382478\Documents\Visual Studio 2010\Projects\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.pdb
-<<<<<<< HEAD
 C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.exe
 C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.pdb
-=======
 C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.xml
 >>>>>>> feature/Marra_New_Feature
 C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.Form1.resources
@@ -39,3 +37,9 @@ C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\
 C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.exe
 C:\Users\LS004313131\Documents\Visual Studio 2010\Projects\SourceTree\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.pdb
 >>>>>>> 55aff868d46a0fade3e278b0c8a95bb7a5e41c92
+C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\bin\Debug\GitVbTest.exe
+C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\bin\Debug\GitVbTest.pdb
+C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\bin\Debug\GitVbTest.xml
+C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.Form1.resources
+C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.Resources.resources
+C:\Users\BK004313322\Documents\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.vbproj.GenerateResource.Cache
