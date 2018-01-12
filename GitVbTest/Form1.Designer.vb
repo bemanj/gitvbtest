@@ -23,6 +23,8 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
+        Me.SheldonButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -33,8 +35,6 @@ Partial Class Form1
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
-        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
         '
         'button_CreateNewEmployee
         '
@@ -45,11 +45,21 @@ Partial Class Form1
         Me.button_CreateNewEmployee.Text = "New Employee"
         Me.button_CreateNewEmployee.UseVisualStyleBackColor = True
         '
+        'SheldonButton
+        '
+        Me.SheldonButton.Location = New System.Drawing.Point(47, 125)
+        Me.SheldonButton.Name = "SheldonButton"
+        Me.SheldonButton.Size = New System.Drawing.Size(75, 23)
+        Me.SheldonButton.TabIndex = 1
+        Me.SheldonButton.Text = "Sheldon"
+        Me.SheldonButton.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Controls.Add(Me.SheldonButton)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.button_CreateNewEmployee)
         Me.Name = "Form1"
@@ -59,5 +69,6 @@ Partial Class Form1
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents button_CreateNewEmployee As System.Windows.Forms.Button
+    Friend WithEvents SheldonButton As System.Windows.Forms.Button
 
 End Class
