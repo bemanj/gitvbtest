@@ -8,4 +8,3 @@ C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\Gi
 C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.xml
 C:\Users\rm004134263\source\repo2\gitvbtest\GitVbTest\GitVbTest\obj\x86\Debug\GitVbTest.pdb
 C:\Users\RB004259604\Documents\gitvbtest\GitVbTest\obj\x86\Debug\GitVbTest.xml
-C:\Users\JA004340823\Documents\gitvbtest.git\GitVbTest\obj\x86\Debug\GitVbTest.xml
