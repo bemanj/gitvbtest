@@ -22,40 +22,19 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.SheldonButton = New System.Windows.Forms.Button()
         Me.FirstNameLabel1 = New System.Windows.Forms.Label()
         Me.LastNameTextBox1 = New System.Windows.Forms.TextBox()
-
-
-        Me.SuspendLayout()
-
-        'Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
-
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.SuspendLayout()
-
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        'Me.Button1 = New System.Windows.Forms.Button()
-        'Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.Alorica_PictureBox = New System.Windows.Forms.PictureBox()
-        CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Button1
-        '
-        'Me.Button1.Location = New System.Drawing.Point(47, 61)
-        'Me.Button1.Name = "Button1"
-        'Me.Button1.Size = New System.Drawing.Size(75, 23)
-        'Me.Button1.TabIndex = 0
-        'Me.Button1.Text = "Button1"
-        'Me.Button1.UseVisualStyleBackColor = True
-
         '
         'button_CreateNewEmployee
         '
@@ -66,7 +45,6 @@ Partial Class Form1
         Me.button_CreateNewEmployee.Text = "New Employee"
         Me.button_CreateNewEmployee.UseVisualStyleBackColor = True
         '
-
         'SheldonButton
         '
         Me.SheldonButton.Location = New System.Drawing.Point(114, 91)
@@ -130,7 +108,7 @@ Partial Class Form1
         Me.Label3.Size = New System.Drawing.Size(75, 16)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Last Name"
-
+        '
         'Alorica_PictureBox
         '
         Me.Alorica_PictureBox.BackgroundImage = CType(resources.GetObject("Alorica_PictureBox.BackgroundImage"), System.Drawing.Image)
@@ -140,7 +118,6 @@ Partial Class Form1
         Me.Alorica_PictureBox.Size = New System.Drawing.Size(75, 68)
         Me.Alorica_PictureBox.TabIndex = 1
         Me.Alorica_PictureBox.TabStop = False
-
         '
         'RadioButton1
         '
@@ -158,7 +135,6 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
-
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.SheldonButton)
@@ -167,10 +143,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LastNameTextBox1)
         Me.Controls.Add(Me.FirstNameLabel1)
-
         Me.Controls.Add(Me.Alorica_PictureBox)
-        'Me.Controls.Add(Me.Button1)
-
         Me.Controls.Add(Me.button_CreateNewEmployee)
         Me.Name = "Form1"
         Me.Text = "Form1"
