@@ -25,18 +25,30 @@ Partial Class Form1
 
         Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.SheldonButton = New System.Windows.Forms.Button()
-        Me.LastNameLabel1 = New System.Windows.Forms.Label()
+        Me.FirstNameLabel1 = New System.Windows.Forms.Label()
         Me.LastNameTextBox1 = New System.Windows.Forms.TextBox()
-        Me.SuspendLayout()
-
-        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        'Me.Button1 = New System.Windows.Forms.Button()
+        Me.button_CreateNewEmployee = New System.Windows.Forms.Button()
+        Me.Alorica_PictureBox = New System.Windows.Forms.PictureBox()
+        CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
         '
-        
+        'Me.Button1.Location = New System.Drawing.Point(47, 61)
+        'Me.Button1.Name = "Button1"
+        'Me.Button1.Size = New System.Drawing.Size(75, 23)
+        'Me.Button1.TabIndex = 0
+        'Me.Button1.Text = "Button1"
+        'Me.Button1.UseVisualStyleBackColor = True
+
         '
         'button_CreateNewEmployee
         '
@@ -47,32 +59,26 @@ Partial Class Form1
         Me.button_CreateNewEmployee.Text = "New Employee"
         Me.button_CreateNewEmployee.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
 
-        Me.Label1.Location = New System.Drawing.Point(44, 104)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(67, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Label Button"
         'SheldonButton
         '
-        Me.SheldonButton.Location = New System.Drawing.Point(47, 125)
+        Me.SheldonButton.Location = New System.Drawing.Point(114, 91)
         Me.SheldonButton.Name = "SheldonButton"
         Me.SheldonButton.Size = New System.Drawing.Size(75, 23)
         Me.SheldonButton.TabIndex = 1
         Me.SheldonButton.Text = "Sheldon"
         Me.SheldonButton.UseVisualStyleBackColor = True
-        'LastNameLabel1
         '
-        Me.LastNameLabel1.AutoSize = True
-        Me.LastNameLabel1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LastNameLabel1.Location = New System.Drawing.Point(21, 67)
-        Me.LastNameLabel1.Name = "LastNameLabel1"
-        Me.LastNameLabel1.Size = New System.Drawing.Size(75, 16)
-        Me.LastNameLabel1.TabIndex = 1
-        Me.LastNameLabel1.Text = "Last Name"
+        'FirstNameLabel1
+        '
+        Me.FirstNameLabel1.AutoSize = True
+        Me.FirstNameLabel1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FirstNameLabel1.ForeColor = System.Drawing.Color.Purple
+        Me.FirstNameLabel1.Location = New System.Drawing.Point(21, 67)
+        Me.FirstNameLabel1.Name = "FirstNameLabel1"
+        Me.FirstNameLabel1.Size = New System.Drawing.Size(75, 16)
+        Me.FirstNameLabel1.TabIndex = 1
+        Me.FirstNameLabel1.Text = "First Name"
         '
         'LastNameTextBox1
         '
@@ -80,7 +86,10 @@ Partial Class Form1
         Me.LastNameTextBox1.Name = "LastNameTextBox1"
         Me.LastNameTextBox1.Size = New System.Drawing.Size(100, 20)
         Me.LastNameTextBox1.TabIndex = 2
-
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(39, 13)
@@ -91,11 +100,39 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(170, 226)
+        Me.Label2.Location = New System.Drawing.Point(168, 226)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(80, 20)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Benedict"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(102, 39)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 4
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Purple
+        Me.Label3.Location = New System.Drawing.Point(21, 41)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(75, 16)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Last Name"
+
+        'Alorica_PictureBox
+        '
+        Me.Alorica_PictureBox.BackgroundImage = CType(resources.GetObject("Alorica_PictureBox.BackgroundImage"), System.Drawing.Image)
+        Me.Alorica_PictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Alorica_PictureBox.Location = New System.Drawing.Point(171, 23)
+        Me.Alorica_PictureBox.Name = "Alorica_PictureBox"
+        Me.Alorica_PictureBox.Size = New System.Drawing.Size(75, 68)
+        Me.Alorica_PictureBox.TabIndex = 1
+        Me.Alorica_PictureBox.TabStop = False
 
         '
         'Form1
@@ -104,29 +141,39 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
 
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.SheldonButton)
-
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-
         Me.Controls.Add(Me.LastNameTextBox1)
-        Me.Controls.Add(Me.LastNameLabel1)
+        Me.Controls.Add(Me.FirstNameLabel1)
+
+        Me.Controls.Add(Me.Alorica_PictureBox)
+        'Me.Controls.Add(Me.Button1)
+
         Me.Controls.Add(Me.button_CreateNewEmployee)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(Me.Alorica_PictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents button_CreateNewEmployee As System.Windows.Forms.Button
+
     Friend WithEvents Label1 As System.Windows.Forms.Label
 
     Friend WithEvents SheldonButton As System.Windows.Forms.Button
-    Friend WithEvents LastNameLabel1 As System.Windows.Forms.Label
+    Friend WithEvents FirstNameLabel1 As System.Windows.Forms.Label
     Friend WithEvents LastNameTextBox1 As System.Windows.Forms.TextBox
 
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+
+
+    Friend WithEvents Alorica_PictureBox As System.Windows.Forms.PictureBox
 
 
 End Class
